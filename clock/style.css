@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.time {
+    z-index: 500;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    line-height: 75px;
+    top: 35%;
+    right: 35%;
+    bottom: 35%;
+    left: 35%;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 95px;
+    background-color: white;
+}
+
+.wrapper {
+    display: inline-table;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    -moz-border-radius: 125px; 
+    -webkit-border-radius: 125px; 
+    border-radius: 125px;
+    margin: 10px;
+    font-size: 3em;
+    text-shadow: 1px -1px #000;
+}
+
+.pie {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    -moz-transform-origin: 100% 50%;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+}   
+
+#hours .time {
+    color: #ff720a;
+}
+
+#minutes .time {
+    color: #156f1f;
+}
+
+#seconds .time {
+    color: #262121;
+}
+
+#hours .pie {
+    background: #f4aa74;
+}
+
+#minutes .pie {
+    background: #56c362;
+}
+
+#seconds .pie {
+    background: #8e7a7c;
+}
+
+.spinner {
+    border-radius: 125px 0 0 125px;
+    z-index: 200;
+    border-right: none;
+}
+
+.filler {
+    border-radius: 0 125px 125px 0;
+    z-index: 100;
+    border-left: none;
+    fill: 1;
+    left: 50%;
+}
+
+.mask {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 300;
+    background: white;
+}
