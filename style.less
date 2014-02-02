@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Actor);
+@top-color-1: hsl(44, 98%, 69%);
+@top-color-2: hsl(233, 90%, 63%);
+@top-color-3: hsla(75,70%,40%,1);
+@top-color-4: hsl(55, 87%, 61%);
+@top-color-5: hsla(10,70%,40%,1);
+@top-color-6: hsl(300, 33%, 7%);
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Actor', serif;
+    height: 100%;
+    position: relative;
+	background-image: -webkit-linear-gradient(0deg, @top-color-1 16.666667%, @top-color-2 16.666667%, @top-color-2 33.333333%, @top-color-3 33.333333%, @top-color-3 50%, @top-color-4 50%, @top-color-4 66.666667%, @top-color-5 66.666667%, @top-color-5 83.333333%, @top-color-6 83.333333%);
+	background-image: -moz-linear-gradient(0deg, @top-color-1 16.666667%, @top-color-2 16.666667%, @top-color-2 33.333333%, @top-color-3 33.333333%, @top-color-3 50%, @top-color-4 50%, @top-color-4 66.666667%, @top-color-5 66.666667%, @top-color-5 83.333333%, @top-color-6 83.333333%);
+	background-image: linear-gradient(to right, @top-color-1 16.666667%, @top-color-2 16.666667%, @top-color-2 33.333333%, @top-color-3 33.333333%, @top-color-3 50%, @top-color-4 50%, @top-color-4 66.666667%, @top-color-5 66.666667%, @top-color-5 83.333333%, @top-color-6 83.333333%);
+	-webkit-background-size: 100% 3px;
+	-moz-background-size: 100% 3px;
+	background-size: 100% 3px;
+	background-repeat: no-repeat;
+	background-position-y: top;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+#me-coding {
+    color: #930b3f;
+    font-size: 2.5em;
+    text-align: center;
+    
+}
+
+.content.show-later {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+nav ul.show-later {
+	
+    box-shadow:  2px 0 1px #f4eef1;
+    margin: 0.5em 2em;
+    display: inline-block;
+}
+
+ul li.show-later {
+    margin: 0 1.8em 1.8em 1.8em;
+    list-style: none;
+}
+
+ul li a.show-later  {
+    color: #a50b2f;
+    font-size: 1.4em;
+    text-shadow: 0 1px 1px #eae8e9;
+}
+
+ul li a.show-later:hover {
+    color: rgba(92, 16, 45, 0.5);
+}
+
+.main.show-later {
+    margin: 0 auto;
+}
+
+.main p.show-later  {
+    font-size: 1.3em;
+    padding-left: 50px;
+}
+
+footer.show-later {
+    background-color: #f4eef1;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer small.show-later {
+    margin: auto;
+    text-align: center;
+    color: #930b3f;
+}
