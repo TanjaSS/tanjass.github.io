@@ -1,0 +1,82 @@
+.colors-top {
+  background-image: -webkit-linear-gradient(0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
+  background-image: -moz-linear-gradient(0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
+  background-image: linear-gradient(to right, 0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
+  -webkit-background-size: 100% 4px;
+  -moz-background-size: 100% 4px;
+  background-size: 100% 4px;
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+nav {
+  padding-top: 4em;
+}
+nav ul.show-later {
+  box-shadow: 0 -2px 1px #f4eef1;
+  margin: 0.5em 2em;
+}
+nav ul.show-later li.show-later {
+  margin: 0 1.8em 1.8em 1.8em;
+  list-style: none;
+  display: inline-block;
+}
+nav ul.show-later li.show-later a.show-later {
+  color: #930b3f;
+  font-size: 1.2em;
+  text-shadow: 0 1px 1px #eae8e9;
+}
+nav ul.show-later li.show-later a.show-later:hover {
+  color: rgba(147, 11, 63, 0.65);
+  text-decoration: none;
+}
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+.hide {
+  display: none;
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5em;
+  line-height: 2.5em;
+  height: 100%;
+  position: relative;
+  background-image: -webkit-linear-gradient(0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
+  background-image: -moz-linear-gradient(0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
+  background-image: linear-gradient(to right, 0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
+  -webkit-background-size: 100% 4px;
+  -moz-background-size: 100% 4px;
+  background-size: 100% 4px;
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+.container {
+  height: 100%;
+}
+.container #me-coding {
+  font-size: 2.2em;
+  margin: .5em 0 0 0;
+  color: rgba(206, 204, 204, 0.81);
+  text-align: center;
+}
+.container #name.show-later {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  font-weight: 100;
+  margin: 1em 0 0 0;
+  color: rgba(206, 204, 204, 0.5);
+  text-align: center;
+}
+.container .main {
+  padding-top: 3em;
+}
+.container .main p.show-later {
+  color: #5f5c54;
+  font-size: 1.7em;
+  font-weight: 300;
+  line-height: 1.3em;
+}

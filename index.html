@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8"> 
-    <title>Lorem Ipsum</title>
-    <link rel="shortcut icon" href="slike/flower.gif"/>
+	<meta charset="utf-8">
+	<title>Tanja SS</title>
+	<link rel="shortcut icon" href="pictures/flower.gif" />
 </head>
+
 <body>
 	<div class="container">
+		<h1 id="name">Tanja Stjepanović Stričević</h1>
 		<h1 id="me-coding">This is me coding my page!</h1>
-		<div class="row content">
-			<nav class="col-xs-3">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Info</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-			<div class="main col-xs-9">
-				<p>Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.Donec turpis quam, ultricies id pretium sit amet, gravida eget leo. 
-				</p>
-				<p>Duis sed purus at eros bibendum cursus nec a nulla.Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo. 
+		<div class="row">
+			<div class="col-md-9 col-centered main">
+				<p>Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Duis sed purus at eros bibendum cursus nec a nulla.Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus.
 				</p>
 			</div>
+
 		</div>
-	 </div>
-	
+		<div class="row">
+			<nav class="col-md-5 col-centered">
+				<ul>
+					<li class="hide">
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">Info</a>
+					</li>
+					<li>
+						<a href="#">Work</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <link rel="stylesheet" href="bootstrap-3.0.3/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="http://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond" rel="stylesheet" type="text/css" />
 	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 	<script>
 		$(function() {
-			$showLaterElements = $.makeArray($("div.container *"));
-			
-			var interval = setInterval(function() {
-				if ($showLaterElements.length > 0) {
-					var $element = $showLaterElements.shift();
-					$($element).addClass("show-later");
-				} else {
-					window.clearInterval(interval);
-					
-					var $meCoding = $("h1#me-coding")
-					$meCoding.text("Done! :)");
-					window.setTimeout(function() {
-						$meCoding.remove();
-					}, 2000);
-				}
-			}, 300);
-		});
+				$showLaterElements = $.makeArray($("div.container *"));
+				
+				var interval = setInterval(function() {
+					if ($showLaterElements.length > 0) {
+						var $element = $showLaterElements.shift();
+						$($element).addClass("show-later");
+					} else {
+						window.clearInterval(interval);
+						
+						var $meCoding = $("h1#me-coding")
+						$meCoding.text("Done! :)");
+						window.setTimeout(function() {
+							$meCoding.remove();
+						}, 2000);
+					}
+				}, 300);
+			});
 	</script>
 </body>
+
 </html>
