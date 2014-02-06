@@ -1,27 +1,26 @@
 @nav-font-color: #930b3f;
-@nav-font-color-hover: rgba(147, 11, 63, 0.65);
+@nav-font-color-hover: rgba(147,11,63,0.65);
 
-nav {
-	padding-top: 4em;
+ nav {
+	margin: 0.5em 2em;
 	
-	ul.show-later {
-		box-shadow: 0 -2px 1px #f4eef1;
-		margin: 0.5em 2em;
+	div.show-later {
+		box-shadow: 0 -2px 1px #eae8e9;
+		list-style: none;
+		text-align: center;
 		
-		li.show-later {
-			margin: 0 1.8em 1.8em 1.8em;
-			list-style: none;
-			display: inline-block;
+		&:hover {
+			box-shadow: 0 2px 1px #ddd3d8;
+		}
+		
+		a.show-later {
+			color: @nav-font-color;
+			font-size: 1.2em;
+			text-shadow: 0 1px 1px #eae8e9;
 			
-			a.show-later {
-				color: @nav-font-color;
-				font-size: 1.2em;
-				text-shadow: 0 1px 1px #eae8e9;
-				
-				&:hover {
-					color: @nav-font-color-hover;
-					text-decoration: none;
-				}
+			&:hover {
+				color: @nav-font-color-hover;
+				text-decoration: none;
 			}
 		}
 	}

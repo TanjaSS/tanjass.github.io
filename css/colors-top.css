@@ -1,0 +1,6 @@
+.colors-top {
+  border-top: 4px solid #930b3f;
+  -webkit-box-shadow: 0 5px #413d3f;
+  -moz-box-shadow: 0 5px #413d3f;
+  box-shadow: 0 5px #413d3f;
+}

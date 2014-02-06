@@ -1,31 +1,26 @@
 .colors-top {
-  background-image: -webkit-linear-gradient(0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
-  background-image: -moz-linear-gradient(0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
-  background-image: linear-gradient(to right, 0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
-  -webkit-background-size: 100% 4px;
-  -moz-background-size: 100% 4px;
-  background-size: 100% 4px;
-  background-repeat: no-repeat;
-  background-position-y: top;
+  border-top: 4px solid #930b3f;
+  -webkit-box-shadow: 0 5px #413d3f;
+  -moz-box-shadow: 0 5px #413d3f;
+  box-shadow: 0 5px #413d3f;
 }
 nav {
-  padding-top: 4em;
-}
-nav ul.show-later {
-  box-shadow: 0 -2px 1px #f4eef1;
   margin: 0.5em 2em;
 }
-nav ul.show-later li.show-later {
-  margin: 0 1.8em 1.8em 1.8em;
+nav div.show-later {
+  box-shadow: 0 -2px 1px #eae8e9;
   list-style: none;
-  display: inline-block;
+  text-align: center;
 }
-nav ul.show-later li.show-later a.show-later {
+nav div.show-later:hover {
+  box-shadow: 0 2px 1px #ddd3d8;
+}
+nav div.show-later a.show-later {
   color: #930b3f;
   font-size: 1.2em;
   text-shadow: 0 1px 1px #eae8e9;
 }
-nav ul.show-later li.show-later a.show-later:hover {
+nav div.show-later a.show-later:hover {
   color: rgba(147, 11, 63, 0.65);
   text-decoration: none;
 }
@@ -40,26 +35,23 @@ html {
   height: 100%;
 }
 body {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Scada', sans-serif;
   font-size: 1.5em;
   line-height: 2.5em;
-  height: 100%;
   position: relative;
-  background-image: -webkit-linear-gradient(0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
-  background-image: -moz-linear-gradient(0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
-  background-image: linear-gradient(to right, 0deg, #ff0058 26.666667%, rgba(208, 216, 13, 0.51) 66.666667%, rgba(196, 189, 110, 0.81) 93.333333%);
-  -webkit-background-size: 100% 4px;
-  -moz-background-size: 100% 4px;
-  background-size: 100% 4px;
-  background-repeat: no-repeat;
-  background-position-y: top;
+}
+body .top-div {
+  border-top: 4px solid #930b3f;
+  -webkit-box-shadow: 0 5px #413d3f;
+  -moz-box-shadow: 0 5px #413d3f;
+  box-shadow: 0 5px #413d3f;
 }
 .container {
   height: 100%;
 }
 .container #me-coding {
   font-size: 2.2em;
-  margin: .5em 0 0 0;
+  padding: .5em 0 0 0;
   color: rgba(206, 204, 204, 0.81);
   text-align: center;
 }
@@ -67,7 +59,7 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
   font-weight: 100;
-  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
   color: rgba(206, 204, 204, 0.5);
   text-align: center;
 }
