@@ -1,26 +1,30 @@
+// main: style.less
+
 @nav-font-color: #930b3f;
 @nav-font-color-hover: rgba(147,11,63,0.65);
 
  nav {
-	margin: 0.5em 2em;
+	margin-top: 1em;
 	
-	div.show-later {
-		box-shadow: 0 -2px 1px #eae8e9;
+	ul {
 		list-style: none;
-		text-align: center;
+		display: inline-block;
+		border-bottom: 2px solid #9b9c74;
+		padding-left: 0;
 		
-		&:hover {
-			box-shadow: 0 2px 1px #ddd3d8;
-		}
-		
-		a.show-later {
-			color: @nav-font-color;
-			font-size: 1.2em;
-			text-shadow: 0 1px 1px #eae8e9;
+		li {
+			display: inline-block;
+			padding: 0 1em;
 			
-			&:hover {
-				color: @nav-font-color-hover;
-				text-decoration: none;
+			a {
+				color: @nav-font-color;
+				font-size: 1em;
+				text-shadow: 0 1px 1px #eae8e9;
+			
+				&:hover {
+					color: @nav-font-color-hover;
+					text-decoration: none;
+				}
 			}
 		}
 	}

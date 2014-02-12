@@ -1,49 +1,87 @@
-@import "colors-top";
-@import "navigation";
+// out: ../css/style.css
+@import url(http://fonts.googleapis.com/css?family=Ledger);
 @import "mixins";
 
+@background: #fffcfc;
+@color-h: #033443;
+@color-link: #4a3d44;
+@color-border: #302a2c;
+
 html {
+	position: relative;
 	height: 100%;
+}
+
+#me-coding {
+	text-align: center;
+	color: @color-h;
 }
 
 body {
-	font-family: 'Scada', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Ledger', serif;
 	font-size: 1.5em;
 	line-height: 2.5em;
+	background-color: @background;
+	height: 100%;
 	position: relative;
 	
-	.top-div {
-		.colors-top;
+	span.show-later {
+		color: #d47265;
 	}
 }
+
+.container-top {
+	height: 35%;
 	
-.container {
-	height: 100%;
-	
-	#me-coding {
-		font-size: 2.2em;
-		padding: .5em 0 0 0;
-		color: rgba(206, 204, 204, 0.81);
-		text-align: center;
-	}
-	
-	#name.show-later {
-		font-family: 'Dancing Script', cursive;
-		font-size: 2em;
-		font-weight: 100;
-		padding: 1em 0 0 0;
-		color: rgba(206, 204, 204, 0.5);
-		text-align: center;
-	}
-	
-	.main {
+	.main.show-later {
 		padding-top: 3em;
-		
+	
 		p.show-later {
-			color: rgb(95, 92, 84);
-			font-size: 1.7em;
-			font-weight: 300;
-			line-height: 1.3em;
+			font-size: 1.4em;
+			color: #625c5c;
+			line-height: normal;
+		}
+	}
+}
+
+.container-middle {
+	height: 25%;
+	background: url(../images/bg.jpg) no-repeat bottom;
+	background-size: cover;
+	opacity: ;
+}
+
+.container-bottom {
+	height: 35%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+	footer.show-later  {
+		
+		
+		div.col-sm-4.show-later {
+			box-shadow: 2px -1px 4px #dedede;
+			text-align: center;
+
+			div.show-later  {
+				display: inline-block;
+			}
+
+			h3.show-later  {
+				padding: .5em 0;
+				margin-top: 0;
+			}
+
+			p.show-later  {
+				text-align: left;
+				white-space:  pre-line;
+				font-size: .9em;
+				line-height: 24px;
+				color: #625c5c;
+			}
 		}
 	}
 }

@@ -1,20 +1,22 @@
 nav {
-  margin: 0.5em 2em;
+  margin-top: 1em;
 }
-nav div.show-later {
-  box-shadow: 0 -2px 1px #eae8e9;
+nav ul {
   list-style: none;
-  text-align: center;
+  display: inline-block;
+  border-bottom: 2px solid #9b9c74;
+  padding-left: 0;
 }
-nav div.show-later:hover {
-  box-shadow: 0 2px 1px #ddd3d8;
+nav ul li {
+  display: inline-block;
+  padding: 0 1em;
 }
-nav div.show-later a.show-later {
+nav ul li a {
   color: #930b3f;
-  font-size: 1.2em;
+  font-size: 1em;
   text-shadow: 0 1px 1px #eae8e9;
 }
-nav div.show-later a.show-later:hover {
+nav ul li a:hover {
   color: rgba(147, 11, 63, 0.65);
   text-decoration: none;
 }
