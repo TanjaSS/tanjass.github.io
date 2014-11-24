@@ -13,89 +13,95 @@ html {
   color: #7e724a;
 }
 #top {
-  border-top: 1px solid #b0282a;
-  -webkit-box-shadow: 0 2px #546366, 0 4px #d1d1d1;
-  -moz-box-shadow: 0 2px #546366, 0 4px #d1d1d1;
-  box-shadow: 0 2px #546366, 0 4px #d1d1d1;
+  border-top: 1px solid #b42a30;
+  -webkit-box-shadow: 0 2px #3294a1, 0 4px #cecfce;
+  -moz-box-shadow: 0 2px #3294a1, 0 4px #cecfce;
+  box-shadow: 0 2px #3294a1, 0 4px #cecfce;
 }
 body {
   height: 100%;
   position: relative;
-  font-family: 'Ledger', Arial;
+  font-family: 'Ledger';
   font-size: 1.5em;
-  color: #888585;
-  background-color: #eeeeee;
+  color: #595a5a;
+  background-color: #f3f5f2;
+}
+header {
+  background-color: #84596B;
+  padding-bottom: 1em;
 }
 header h1 {
-  font-size: 2.2em;
-  color: #545252;
+  font-size: 2em;
+  color: #3e3b3b;
+  padding-right: 2em;
 }
-header h1 .name {
+header h1 a {
+  color: inherit;
+}
+header h1 a .name {
   font-weight: 800;
-  color: #b0282a;
+  color: #cecfce;
+}
+header h1 a:hover {
+  color: inherit;
+  text-decoration: none;
 }
 ul {
-  padding-left: 0;
-  margin-top: 1.7em;
   list-style: none;
+  margin-top: 1.8em;
+  padding-left: 0;
 }
 ul li {
   display: inline-block;
-  margin-right: 2em;
-  padding: .1em;
-  border: 1px solid #d1d1d1;
+  margin-right: 2.5em;
+  padding: 0 .1em;
 }
 ul li a {
-  color: #545252;
-  font-size: 1.4em;
+  color: #cecfce;
+  font-size: 1.2em;
 }
 ul li a:hover {
-  color: #545252;
+  color: #cecfce;
   text-decoration: none;
+  border-bottom: 1px solid #cecfce;
+}
+ul li a.active {
+  border-bottom: 1px solid #cecfce;
 }
 .content {
   min-height: 100%;
   position: relative;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 .content .container {
   height: 100%;
   position: relative;
 }
-.main-wrapper {
-  padding-top: 2em;
-}
 .main {
-  padding: .5em;
+  padding-top: 2em;
 }
 .main p {
   font-size: 1.3em;
+  white-space: pre-line;
 }
 .main .specialize {
-  color: #545252;
+  margin: 1em 0;
+  padding: .3em;
+  background-color: #cecfce;
 }
 .services {
-  font-size: .8em;
+  font-size: .7em;
+  padding-left: 0;
 }
 .services h3 {
   font-size: 1.6em;
-  color: #545252;
-}
-a.btn {
-  background-color: #888585;
-  margin: 1em 0;
-  font-weight: 600;
-  text-align: center;
-  border: 0;
-}
-a.btn:hover {
-  background-color: #545252;
+  color: #3e3b3b;
 }
 footer {
   position: absolute;
   bottom: 0;
-  height: 1em;
+  height: 2em;
   width: 100%;
   margin-top: 1em;
-  background-color: #545252;
+  background-color: #cecfce;
 }

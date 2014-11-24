@@ -1,98 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head> 
 	<meta charset="utf-8">
-	<title>tanjass</title>
+	<title>Tanja Stjepanovic Stricevic</title>
 	<link rel="shortcut icon" href="pictures/flower.gif" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	<h1 id="me-coding">This is me coding my page!</h1>
-	<div class='content'>
-		<div id="top"></div>
-		<div class="container">	
-			<header class="row">
-				<div class="col-md-3">
-					<h1><span class="name">tanja</span>stricevic</h1>
-				</div>
-				<div class="col-md-9">
-					<ul>
-						<li><a href="#">portfolio</a></li>
-						<li><a href="#">info</a></li>
-						<li><a href="#">contact</a></li>
-					</ul>
-				</div>
-		</header>
-			<div class="row main-wrapper">
-				<div class="col-md-7 col-md-offset-3 main">
-					<p>
-						Are you a designer or a design studion that concentrates on user experience and visual aspect of web application development?
-						Or a product owner with interesting idea and finished design that needs help with final step before handing over the project to a development team?
-						Do you have an established website with stale desing that needs a makeover or mobile optimization?
-					</p>
-					<p class="specialize">I'm <strong><span>Tanja</span></strong>. I specialize in HTML &amp; CSS coding and I can help you push your idea futher.</p>
-					<div class="services">
-						<h3>Services I provide</h3>
-						<p>PSD to HTML &amp; CSS coding
-							Responsive/mobile optmization
-							WordPress themes development
-						</p>
-					</div>
-					<div class="services">
-						<h3>Technologies I use</h3>
-						<p> HTML and CSS/Less
-							Twitter Bootstrap
-							Photoshop
-							Basic JavaScript and jQuery
-							WordPress
-							Git/GitHub
-							Mercurial/Bitbucket
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>		
-		<footer>
-		</footer>
-	</div>
+  <div class="container">	
+  </div>		
 	
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<!-- Fonts -->
-	<link rel="stylesheet" href="fontello/css/animation.css">
-	<link rel="stylesheet" href="fontello/css/fontello.css">
-	<link rel="stylesheet" href="fontello/css/fontello-codes.css">
-	<link rel="stylesheet" href="fontello/css/fontello-embedded.css">
-	<link rel="stylesheet" href="fontello/css/fontello-ie7.css">
-	<link rel="stylesheet" href="fontello/css/fontello-ie7-codes.css">
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<script>
-		$(function() {
-				$showLaterElements = $.makeArray($("div.container *"));
-				
-				var interval = setInterval(function() {
-					if ($showLaterElements.length > 0) {
-						var $element = $showLaterElements.shift();
-						$($element).addClass("show-later");
-					} else {
-						window.clearInterval(interval);
-						
-						var $meCoding = $("h1#me-coding")
-						$meCoding.text("Done! :)");
-						window.setTimeout(function() {
-							$meCoding.remove();
-						}, 1000);
-					}
-				}, 200);
-			});
-	</script>
-	
+	<!-- Bootstrap -->
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
