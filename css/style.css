@@ -11,7 +11,7 @@ body {
 }
 h1 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 56px;
+  font-size: 48px;
 }
 h1,
 .h1,
@@ -45,6 +45,20 @@ p {
 }
 .content {
   padding: 30px;
+}
+blockquote p {
+  font-size: 14px;
+  font-style: italic;
+}
+blockquote img {
+  width: 60px;
+  float: left;
+  margin: 0 20px;
+}
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+  content: " ";
 }
 .avatar {
   height: 150px;
