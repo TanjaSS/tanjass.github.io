@@ -78,3 +78,31 @@ blockquote .small:before {
   background-color: #ffca28;
   color: #222;
 }
+.img-responsive {
+  width: 100%;
+}
+.fake-browser-ui {
+  padding: 20px 0 0;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: #ddd;
+  display: inline-block;
+  position: relative;
+  line-height: 0;
+}
+.fake-browser-ui .frame {
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 5px;
+  left: 1px;
+}
+.fake-browser-ui span {
+  height: 8px;
+  width: 8px;
+  border-radius: 8px;
+  background-color: #eee;
+  border: 1px solid #dadada;
+  float: left;
+  margin: 0 0 0 4px;
+}
