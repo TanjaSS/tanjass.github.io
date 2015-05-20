@@ -24,6 +24,7 @@ a {
 a:focus,
 a:hover {
   outline: none;
+  color: #6f68ce;
 }
 .portfolio-link {
   color: #ffc616;
@@ -75,18 +76,24 @@ blockquote footer div {
   width: 150px;
   border-radius: 50%;
 }
-.btn-primary {
+.btn.btn-primary {
   width: 100%;
   background-color: #ffc616;
   color: #222;
   font-weight: bold;
   font-size: 22px;
   border: 0;
+  border-radius: 1px;
 }
-.btn-primary:hover {
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
   opacity: .9;
   background-color: #ffc616;
   color: #222;
+  border: 0;
+  outline: none;
+  outline: 0;
+  outline-offset: 0;
 }
 .section-title {
   border-top: 1px solid #eee;
@@ -124,6 +131,20 @@ blockquote footer div {
 .slick-dots li button::before {
   font-size: 8px;
 }
+footer.footer {
+  text-align: center;
+  margin-top: 10px;
+}
+footer.footer p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #999;
+}
+/* VISIBILITY */
+.show-under-md,
+.sidebar-mobile {
+  display: none;
+}
 /* MEDIA QUERIES */
 @media (min-width: 1200px) {
   .content {
@@ -138,7 +159,15 @@ blockquote footer div {
   }
 }
 @media (max-width: 768px) {
-  .content h1 {
+  .hide-under-md {
+    display: none;
+  }
+  .sidebar-mobile {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .sidebar-mobile h1 {
     font-size: 32px;
     margin-top: 20px;
   }

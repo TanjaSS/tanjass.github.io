@@ -24,6 +24,7 @@ a {
   
   &:focus, &:hover {
     outline: none;
+    color: #6f68ce;
   }
 }
 
@@ -86,18 +87,25 @@ blockquote {
   border-radius: 50%;
 }
 
-.btn-primary {
+
+
+.btn.btn-primary {
 	width: 100%;
   background-color: @color-dark;
   color: #222;
   font-weight: bold;
   font-size: 22px;
   border: 0;
+  border-radius: 1px;
   
-  &:hover {
+  &:focus, &:hover {
   	opacity: .9;
     background-color: @color-dark;
     color: #222;
+    border: 0;
+    outline: none;
+    outline: 0;
+    outline-offset: 0;
   }
 }
 
@@ -142,6 +150,22 @@ blockquote {
   font-size: 8px;
 }
 
+footer.footer {
+  text-align: center;
+  margin-top: 10px;
+  
+  p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
+  }
+}
+
+/* VISIBILITY */
+.show-under-md, .sidebar-mobile {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 1200px) {
   .content {
@@ -158,12 +182,21 @@ blockquote {
 }
 
 @media (max-width: 768px) {
-  .content {
+  .hide-under-md {
+    display: none;
+  }
+  .sidebar-mobile {
+    display: block;
+    float: none;
+    width: 100%;
+    
     h1 {
       font-size: 32px;
       margin-top: 20px;
     }
-    
+  }
+  
+  .content {
     h2 {
       font-size: 28px;
       margin-top: 20px;
