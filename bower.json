@@ -1,0 +1,20 @@
+{
+  "name": "hackberry.co",
+  "version": "1.0.0",
+  "homepage": "https://github.com/TanjaSS/tanjass.github.io",
+  "authors": [
+    "Tanja Stjepanović Stričević <stricevictanja@gmail.com>"
+  ],
+  "description": "Personal website.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.5"
+  }
+}
