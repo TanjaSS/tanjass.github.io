@@ -30,6 +30,7 @@ module.exports = function(grunt) {
           'css/style.min.css': [
             'bower_components/bootstrap/dist/css/bootstrap.min.css',
             'vendor/slick/slick.css',
+            'vendor/slick/slick-theme.css',
             'css/style.css'
           ]
         }
