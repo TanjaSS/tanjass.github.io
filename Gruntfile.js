@@ -17,8 +17,8 @@ module.exports = function(grunt) {
     },
     watch: {
       styles: {
-        files: ['less/**/*.less'], // which files to watch
-        tasks: ['less'],
+        files: ['less/*.less'], // which files to watch
+        tasks: ['less', 'cssmin'],
         options: {
           nospawn: true
         }
@@ -28,6 +28,7 @@ module.exports = function(grunt) {
       target: {
         files: {
           'css/style.min.css': [
+            'css/fonts.css',
             'bower_components/bootstrap/dist/css/bootstrap.min.css',
             'vendor/slick/slick.css',
             'vendor/slick/slick-theme.css',
