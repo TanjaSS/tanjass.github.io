@@ -1,289 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  
-  <title>Hackberry - High Quality HTML&amp;CSS Coding for Freelance Designers and Design Studios</title>
-  
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-  
-  <style>
-  @charset 'UTF-8';html{-webkit-tap-highlight-color:transparent}body{margin:0}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size:10px}footer{display:block}a{background-color:transparent}b{font-weight:700}h1{margin:.67em 0}img{border:0;vertical-align:middle}@media print{:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important}}body{background-color:#fff}.btn{background-image:none}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{line-height:1.42857143}a{text-decoration:none}blockquote img{border-radius:50%}h1,h2{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1{font-size:36px}h2{font-size:30px}p{margin:0 0 10px}blockquote footer{line-height:1.42857143}.container:after,.row:after{clear:both}blockquote{padding:10px 20px;margin:0 0 20px;font-size:17.5px}blockquote footer{display:block;font-size:80%;color:#777}.container{margin-right:auto;margin-left:auto}.container{padding-right:15px;padding-left:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-right:-15px;margin-left:-15px}.col-sm-12,.col-sm-4,.col-sm-8{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:768px){.col-sm-12,.col-sm-4,.col-sm-8{float:left}.col-sm-12{width:100%}.col-sm-8{width:66.66666667%}.col-sm-4{width:33.33333333%}}.btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;user-select:none;border:1px solid transparent;border-radius:4px}.btn{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}.btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}.container:after,.container:before,.row:after,.row:before{display:table;content:" "}body,h1{font-family:Ubuntu,sans-serif}body{font-size:18px;color:#000}h1{font-size:48px}h1,h2{margin-top:40px;margin-bottom:20px}a{color:#6f68ce}p{margin-bottom:20px}.sidebar{padding:70px 30px 30px;color:#fff;background-color:#210C32}.sidebar h2{margin-top:0}blockquote{border-left:2px solid #eee}blockquote p{font-size:14px;font-style:italic}blockquote img{width:60px;height:60px;float:left;margin:0 20px}blockquote footer:before{content:" "}blockquote footer div{padding-left:100px}.btn.btn-primary{width:100%;background-color:#f4d217;color:#222;font-weight:700;font-size:22px;border:0;border-radius:1px}.sidebar-mobile{display:none}@media (min-width:1200px){.content{padding:20px 30px 20px 20px}}@media (max-width:992px){.container{width:100%;padding:0 20px}}@media (max-width:768px){.hide-under-md{display:none}.sidebar-mobile{display:block;float:none;width:100%}.sidebar-mobile h1{font-size:32px;margin-top:20px}.content h2{font-size:28px;margin-top:20px}}
-  </style>
-  
-  <script>
-    function loadCSS( href, before, media, callback ){
-      "use strict";
-      // Arguments explained:
-      // `href` is the URL for your CSS file.
-      // `before` optionally defines the element we'll use as a reference for injecting our <link>
-      // By default, `before` uses the first <script> element in the page.
-      // However, since the order in which stylesheets are referenced matters, you might need a more specific location in your document.
-      // If so, pass a different reference element to the `before` argument and it'll insert before that instead
-      // note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
-      var ss = window.document.createElement( "link" );
-      var ref = before || window.document.getElementsByTagName( "script" )[ 0 ];
-      var sheets = window.document.styleSheets;
-      ss.rel = "stylesheet";
-      ss.href = href;
-      // temporarily, set media to something non-matching to ensure it'll fetch without blocking render
-      ss.media = "only x";
-      // DEPRECATED
-      if( callback ) {
-        ss.onload = callback;
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Hackberry - High Quality HTML&amp;CSS Coding for Freelance Designers and Design Studios</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+    @charset 'UTF-8';html{-webkit-tap-highlight-color:transparent}body{margin:0}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size:10px}footer{display:block}a{background-color:transparent}b{font-weight:700}h1{margin:.67em 0}img{border:0;vertical-align:middle}@media print{:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important}}body{background-color:#fff}.btn{background-image:none}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{line-height:1.42857143}a{text-decoration:none}blockquote img{border-radius:50%}h1,h2{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1{font-size:36px}h2{font-size:30px}p{margin:0 0 10px}blockquote footer{line-height:1.42857143}.container:after,.row:after{clear:both}blockquote{padding:10px 20px;margin:0 0 20px;font-size:17.5px}blockquote footer{display:block;font-size:80%;color:#777}.container{margin-right:auto;margin-left:auto}.container{padding-right:15px;padding-left:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-right:-15px;margin-left:-15px}.col-sm-12,.col-sm-4,.col-sm-8{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:768px){.col-sm-12,.col-sm-4,.col-sm-8{float:left}.col-sm-12{width:100%}.col-sm-8{width:66.66666667%}.col-sm-4{width:33.33333333%}}.btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;user-select:none;border:1px solid transparent;border-radius:4px}.btn{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}.btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}.container:after,.container:before,.row:after,.row:before{display:table;content:" "}body,h1{font-family:Ubuntu,sans-serif}body{font-size:18px;color:#000}h1{font-size:48px}h1,h2{margin-top:40px;margin-bottom:20px}a{color:#6f68ce}p{margin-bottom:20px}.sidebar{padding:70px 30px 30px;color:#fff;background-color:#210C32}.sidebar h2{margin-top:0}blockquote{border-left:2px solid #eee}blockquote p{font-size:14px;font-style:italic}blockquote img{width:60px;height:60px;float:left;margin:0 20px}blockquote footer:before{content:" "}blockquote footer div{padding-left:100px}.btn.btn-primary{width:100%;background-color:#f4d217;color:#222;font-weight:700;font-size:22px;border:0;border-radius:1px}.sidebar-mobile{display:none}@media (min-width:1200px){.content{padding:20px 30px 20px 20px}}@media (max-width:992px){.container{width:100%;padding:0 20px}}@media (max-width:768px){.hide-under-md{display:none}.sidebar-mobile{display:block;float:none;width:100%}.sidebar-mobile h1{font-size:32px;margin-top:20px}.content h2{font-size:28px;margin-top:20px}}
+    </style>
+
+    <script>
+      function loadCSS( href, before, media, callback ){
+        "use strict";
+        // Arguments explained:
+        // `href` is the URL for your CSS file.
+        // `before` optionally defines the element we'll use as a reference for injecting our <link>
+        // By default, `before` uses the first <script> element in the page.
+        // However, since the order in which stylesheets are referenced matters, you might need a more specific location in your document.
+        // If so, pass a different reference element to the `before` argument and it'll insert before that instead
+        // note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
+        var ss = window.document.createElement( "link" );
+        var ref = before || window.document.getElementsByTagName( "script" )[ 0 ];
+        var sheets = window.document.styleSheets;
+        ss.rel = "stylesheet";
+        ss.href = href;
+        // temporarily, set media to something non-matching to ensure it'll fetch without blocking render
+        ss.media = "only x";
+        // DEPRECATED
+        if( callback ) {
+          ss.onload = callback;
+        }
+
+        // inject link
+        ref.parentNode.insertBefore( ss, ref );
+        // This function sets the link's media back to `all` so that the stylesheet applies once it loads
+        // It is designed to poll until document.styleSheets includes the new sheet.
+        ss.onloadcssdefined = function( cb ){
+          var defined;
+          for( var i = 0; i < sheets.length; i++ ){
+            if( sheets[ i ].href && sheets[ i ].href === ss.href ){
+              defined = true;
+            }
+          }
+          if( defined ){
+            cb();
+          } else {
+            setTimeout(function() {
+              ss.onloadcssdefined( cb );
+            });
+          }
+        };
+        ss.onloadcssdefined(function() {
+          ss.media = media || "all";
+        });
+        return ss;
       }
 
-      // inject link
-      ref.parentNode.insertBefore( ss, ref );
-      // This function sets the link's media back to `all` so that the stylesheet applies once it loads
-      // It is designed to poll until document.styleSheets includes the new sheet.
-      ss.onloadcssdefined = function( cb ){
-        var defined;
-        for( var i = 0; i < sheets.length; i++ ){
-          if( sheets[ i ].href && sheets[ i ].href === ss.href ){
-            defined = true;
-          }
-        }
-        if( defined ){
-          cb();
-        } else {
-          setTimeout(function() {
-            ss.onloadcssdefined( cb );
-          });
-        }
-      };
-      ss.onloadcssdefined(function() {
-        ss.media = media || "all";
-      });
-      return ss;
-    }
-    
-    loadCSS( "css/style.min.css" );
-  </script>
-  
-  <noscript><link href="css/style.min.css" rel="stylesheet"></noscript>
-</head>
+      loadCSS( "css/style.min.css" );
+    </script>
 
-<body>
-  <div class="container">
-   
-    <div class="row">
-     <div class="col-sm-4 sidebar-mobile">
-        <h1>High Quality HTML&amp;CSS Coding for Freelance Designers and Design Studios</h1>
-        
-        <div class="sidebar">
-        
-          <h2>Hello!</h2>
+    <noscript><link href="css/style.min.css" rel="stylesheet"></noscript>
+  </head>
 
-          <p>I'm <b>Tanja</b> and I use modern tools to build responsive and maintainable static websites and WordPress themes.</p>
+  <body>
+    <div class="container">
 
-          <p>My toolbox includes HTML, CSS, Less, Sass, Bootstrap, Zurb Foundation, Underscores WordPress starter theme, JavaScript, jQuery and Git.</p>
+      <div class="row">
+       <div class="col-sm-4 sidebar-mobile">
+          <h1>High Quality HTML&amp;CSS Coding for Freelance Designers and Design Studios</h1>
 
-          <p>Let's work together!</p>
+          <div class="sidebar">
 
-          <a class="btn btn-primary" href="mailto:stricevictanja@gmail.com">Contact me</a>
+            <h2>Hello!</h2>
+
+            <p>I'm <b>Tanja</b> and I use modern tools to build responsive and maintainable static websites and WordPress themes.</p>
+
+            <p>My toolbox includes HTML, CSS, Less, Sass, Bootstrap, Zurb Foundation, Underscores WordPress starter theme, JavaScript, jQuery and Git.</p>
+
+            <p>Let's work together!</p>
+
+            <a class="btn btn-primary" href="mailto:stricevictanja@gmail.com">Contact me</a>
+          </div>
+        </div>
+
+        <div class="col-sm-8 content">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="hide-under-md">High Quality HTML&amp;CSS Coding for Freelance Designers and Design Studios</h1>
+
+              <h2>How I Helped My Clients?</h2>
+
+              <blockquote>
+                <p>Tanja has been an excellent resource for numerous web projects our company has worked on. Communicates well, responds quickly and solves advanced CSS problems. One of our best assets and she is highly recommended.</p>
+                <footer class="row">
+                  <img src="images/staffan_t.jpg">
+                  <div>Staffan Ulmert</div>
+                  <div>Project manager at <a href="http://valdemarweb.com/" target="_blank">Valdemar Web Agency & Media Network</a></div>
+                  <div>Gothenburg, Sweden</div>
+                </footer>
+              </blockquote>
+
+              <blockquote>
+                <p>I worked with Tanja on several projects for well know norwegian brands like <a href="http://sikrebarnibil.no/">Volvo</a>, <a href="http://klartdukan.no/">MAXBO</a>, <a href="http://www.pepperkakegalleriet.no/">MILLS</a>, NAF, <a href="http://godtjobba.com/">ASVL</a>, Lypsyl and Tassimo. Our partnership lasts for more than a year and I can say that her work on HTML, CSS, responsive design and Wordpress templates is professional and fast. I am very pleased and I can highly recommend her.
+                </p>
+                <footer class="row">
+                  <img src="images/lise.jpg">
+                  <div>Lise Strandlien</div>
+                  <div>CEO <a href="http://kepush.no" target="_blank">Kepush AS</a></div>
+                  <div>Oslo, Norway</div>
+                </footer>
+              </blockquote>
+
+              <blockquote>
+                <p>I've worked with many different coders over the years and can honestly say that Tanja is one of the very best that I have worked with. She works to an excellent standard, is not happy to produce anything other than first class work, is quick to respond to feedback and questions and, most importantly, actually delivers her work on time. It is my pleasure to recommend her to anybody.
+                </p>
+                <footer class="row">
+                  <img src="images/robert.jpg">
+                  <div>Rob Brearley</div>
+                  <div><a href="http://www.shopwired.co.uk/" target="_blank">ShopWired</a></div>
+                  <div>Birmingham, England</div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 hide-under-md">
+          <div class="sidebar">
+
+            <!--<div class="about-me text-center">
+              <img src="images/avatar-3.png" class="" width="230" height="230">
+            </div>-->
+
+            <h2>Hi!</h2>
+
+            <p>I'm <b>Tanja</b> and I use modern tools to build responsive and maintainable static websites and WordPress themes.</p>
+
+            <p>My toolbox includes HTML, CSS, Less, Sass, Bootstrap, Zurb Foundation, Underscores WordPress starter theme, JavaScript, jQuery and Git.</p>
+
+            <p>Let's work together!</p>
+
+            <a class="btn btn-primary" href="mailto:stricevictanja@gmail.com">Contact me</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="section-title">Selected Work</h2>
         </div>
       </div>
-      
-      <div class="col-sm-8 content">
-        <div class="row">
+
+      <div id="portfolio">
+        <div class="row portfolio">
           <div class="col-sm-12">
-            <h1 class="hide-under-md">High Quality HTML&amp;CSS Coding for Freelance Designers and Design Studios</h1>
-            
-            <h2>How I Helped My Clients?</h2>
+            <h3 class="project-title">"Has it leaked?" music community</h3>
 
-            <blockquote>
-              <p>Tanja has been an excellent resource for numerous web projects our company has worked on. Communicates well, responds quickly and solves advanced CSS problems. One of our best assets and she is highly recommended.</p>
-              <footer class="row">
-                <img src="images/staffan_t.jpg">
-                <div>Staffan Ulmert</div>
-                <div>Project manager at <a href="http://valdemarweb.com/" target="_blank">Valdemar Web Agency & Media Network</a></div>
-                <div>Gothenburg, Sweden</div>
-              </footer>
-            </blockquote>
+            <div class="row">
+              <div class="col-sm-7">
+                <div class="project-slider">
+                  <div class="fake-browser-ui">
+                    <div class="frame">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
 
-            <blockquote>
-              <p>I worked with Tanja on several projects for well know norwegian brands like <a href="http://sikrebarnibil.no/">Volvo</a>, <a href="http://klartdukan.no/">MAXBO</a>, <a href="http://www.pepperkakegalleriet.no/">MILLS</a>, NAF, <a href="http://godtjobba.com/">ASVL</a>, Lypsyl and Tassimo. Our partnership lasts for more than a year and I can say that her work on HTML, CSS, responsive design and Wordpress templates is professional and fast. I am very pleased and I can highly recommend her.
-              </p>
-              <footer class="row">
-                <img src="images/lise.jpg">
-                <div>Lise Strandlien</div>
-                <div>CEO <a href="http://kepush.no" target="_blank">Kepush AS</a></div>
-                <div>Oslo, Norway</div>
-              </footer>
-            </blockquote>
-            
-            <blockquote>
-              <p>I've worked with many different coders over the years and can honestly say that Tanja is one of the very best that I have worked with. She works to an excellent standard, is not happy to produce anything other than first class work, is quick to respond to feedback and questions and, most importantly, actually delivers her work on time. It is my pleasure to recommend her to anybody.
-              </p>
-              <footer class="row">
-                <img src="images/robert.jpg">
-                <div>Rob Brearley</div>
-                <div><a href="http://www.shopwired.co.uk/" target="_blank">ShopWired</a></div>
-                <div>Birmingham, England</div>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-sm-4 hide-under-md">
-        <div class="sidebar">
-                
-          <!--<div class="about-me text-center">
-            <img src="images/avatar-3.png" class="" width="230" height="230">
-          </div>-->
-        
-          <h2>Hi!</h2>
-
-          <p>I'm <b>Tanja</b> and I use modern tools to build responsive and maintainable static websites and WordPress themes.</p>
-
-          <p>My toolbox includes HTML, CSS, Less, Sass, Bootstrap, Zurb Foundation, Underscores WordPress starter theme, JavaScript, jQuery and Git.</p>
-
-          <p>Let's work together!</p>
-
-          <a class="btn btn-primary" href="mailto:stricevictanja@gmail.com">Contact me</a>
-        </div>
-      </div>
-
-    </div>
-    
-    <div class="row">
-      <div class="col-sm-12">
-        <h2 class="section-title">Selected Work</h2>
-      </div>
-    </div>
-    
-    <div id="portfolio">
-      <div class="row portfolio">
-        <div class="col-sm-12">
-          <h3 class="project-title">"Has it leaked?" music community</h3>
-
-          <div class="row">
-            <div class="col-sm-7">
-              <div class="project-slider">
-                <div class="fake-browser-ui">
-                  <div class="frame">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <img src="images/hil-1.jpg" class="img-responsive" alt="Has it Leaked website screenshot">
                   </div>
 
-                  <img src="images/hil-1.jpg" class="img-responsive" alt="Has it Leaked website screenshot">
-                </div>
+                  <div class="fake-browser-ui">
+                    <div class="frame">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
 
-                <div class="fake-browser-ui">
-                  <div class="frame">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <img src="images/hil-2.jpg" class="img-responsive" alt="Has it Leaked website screenshot">
                   </div>
 
-                  <img src="images/hil-2.jpg" class="img-responsive" alt="Has it Leaked website screenshot">
-                </div>
+                  <div class="fake-browser-ui">
+                    <div class="frame">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
 
-                <div class="fake-browser-ui">
-                  <div class="frame">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <img src="images/hil-3.jpg" class="img-responsive" alt="Has it Leaked website screenshot">
                   </div>
-
-                  <img src="images/hil-3.jpg" class="img-responsive" alt="Has it Leaked website screenshot">
                 </div>
               </div>
-            </div>
 
-            <div class="col-sm-5">
-              <p>
-                <a href="http://hasitleaked.com" target="_blank">Has it Leaked</a> is a music community 
-                and online magazine whose focus are upcoming music albums. It gathers tens 
-                of thousands of users.
-              </p>
+              <div class="col-sm-5">
+                <p>
+                  <a href="http://hasitleaked.com" target="_blank">Has it Leaked</a> is a music community 
+                  and online magazine whose focus are upcoming music albums. It gathers tens 
+                  of thousands of users.
+                </p>
 
-              <p>
-                During 2014. the community website was redesigned and upgraded with new features. 
-                Tanja was part of the team that implemented the redesign. She was in charge 
-                with translating design into HTML and CSS. With other developers she also worked 
-                on the WordPress theme that powers the site.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row portfolio">
-        <div class="col-sm-12">
-          <h3 class="project-title">"Void and Form"</h3>
-
-          <div class="row">
-            <div class="col-sm-7">
-              <div class="project-slider">
-                <div class="fake-browser-ui">
-                  <div class="frame">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-
-                  <img src="images/vandf.jpg" class="img-responsive" alt="Void and Form website screenshot">
-                </div>
+                <p>
+                  During 2014. the community website was redesigned and upgraded with new features. 
+                  Tanja was part of the team that implemented the redesign. She was in charge 
+                  with translating design into HTML and CSS. With other developers she also worked 
+                  on the WordPress theme that powers the site.
+                </p>
               </div>
             </div>
+          </div>
+        </div>
 
-            <div class="col-sm-5">
-              <p>
-                <a href="http://voidandform.com" target="_blank">Void and Form</a> highlights exceptional contemporary art, music videos as well as in-depth artist features.
-                It's design, that enhances the classic concept of printed book and catalogue covers was featured in several online articles such as
-                <a href="">The Big Web Design Trends for 2015</a> and <a href="">Great Examples of Watercolor-esque Website Design</a>.
-              </p>
+        <div class="row portfolio">
+          <div class="col-sm-12">
+            <h3 class="project-title">"Void and Form"</h3>
 
-              <p>
-                Tanja helped the team in customizing the existing WordPress theme.
-              </p>
+            <div class="row">
+              <div class="col-sm-7">
+                <div class="project-slider">
+                  <div class="fake-browser-ui">
+                    <div class="frame">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+
+                    <img src="images/vandf.jpg" class="img-responsive" alt="Void and Form website screenshot">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-5">
+                <p>
+                  <a href="http://voidandform.com" target="_blank">Void and Form</a> highlights exceptional contemporary art, music videos as well as in-depth artist features.
+                  It's design, that enhances the classic concept of printed book and catalogue covers was featured in several online articles such as
+                  <a href="https://99designs.com/designer-blog/2015/01/16/top-web-design-trends-2015/" target="_blank">The Big Web Design Trends for 2015</a> and <a href="http://www.onextrapixel.com/2015/04/07/a-lavish-art-medium-great-examples-of-watercolor-esque-website-design/" target="_blank">Great Examples of Watercolor-esque Website Design</a>.
+                </p>
+
+                <p>
+                  Tanja helped the team in customizing the existing WordPress theme.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>  
-    
-    <footer class="footer">
-      <p>&copy; 2015 Tanja Stjepanovic Stricevic</p>
-    </footer>      
-  </div>
 
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-  <script src="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-  
-  <script>
-    $(document).ready(function() {
-      $('.project-slider').slick({
-        autoplay: true,
-        arrows: false,
-        dots: true
+        <div class="row portfolio">
+          <div class="col-sm-12">
+            <h3 class="project-title">"Vaping Culture" e-juice site</h3>
+
+            <div class="row">
+              <div class="col-sm-7">
+                <div class="project-slider">
+                  <div class="fake-browser-ui">
+                    <div class="frame">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+
+                    <img src="images/vapingculture.jpg" class="img-responsive" alt="Vaping culture website screenshot">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-5">
+                <p>
+                  <a href="http://vapingculture.com/" target="_blank">Vaping Culture</a> is an independent community where you can review, label and categorize e-juice. Since the e-juice and e-cig market is exploding with thousands of different selections, Vaping Culture features an easy way to narrow down recommendations, custom tailored for you.
+                </p>
+
+                <p>
+                  Tanja helped in customizing the existing theme.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>  
+
+      <footer class="footer">
+        <p>&copy; 2015 Tanja Stjepanovic Stricevic</p>
+      </footer>      
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $('.project-slider').slick({
+          autoplay: true,
+          arrows: false,
+          dots: true
+        });
       });
-    });
-  </script>
-  
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    </script>
 
-    ga('create', 'UA-61132317-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  
-</body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-61132317-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
 
 </html>
